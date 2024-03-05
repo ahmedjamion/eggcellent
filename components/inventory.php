@@ -1,0 +1,1 @@
+<h2>Hello Inventory!</h2>
