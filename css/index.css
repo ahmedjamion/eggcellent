@@ -31,12 +31,12 @@ header {
 
 .side-nav {
   border: solid 1px;
-  background-color: transparent;
   padding: 10px;
 }
 
 .nav .active {
   background-color: lightgrey;
+  transition: 0.25s;
 }
 
 main {
@@ -44,6 +44,8 @@ main {
   padding: 10px;
   margin: 10px 10px 10px 0px;
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 footer {

@@ -1,4 +1,1 @@
-
-<?php
-echo "<h2>Hello Customers!</h2>";
-?>
+<h2>Hello Customers!</h2>
