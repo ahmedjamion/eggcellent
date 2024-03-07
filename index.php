@@ -8,13 +8,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
 
     <title>Eggcellent</title>
 </head>
 
 <body>
-    <div class="container-fluid p-0 main-container">
+    <div class="container">
         <!-- header -->
         <header>
             <h1>Eggcellent Poultry Farm Management System</h1>
@@ -24,7 +25,7 @@
         <div class="sidebar-main">
             <!-- nav -->
             <nav class="sidebar">
-                <?php include './components/nav.php'; ?>
+                <?php include './components/sidebar.php'; ?>
             </nav>
 
 
@@ -39,6 +40,7 @@
         <footer>Footer</footer>
     </div>
 
+    <script src="./js/sidebar.js"></script>
 </body>
 
 </html>
