@@ -1,0 +1,87 @@
+/* create user button */
+.create-user-button,
+.view-users-button {
+  padding: 10px 15px;
+}
+
+/* USER FORM MODAL */
+.user-form-modal {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #a0c2e9;
+  padding: 10px;
+  z-index: 100;
+  width: 80%;
+  min-width: 320px;
+  max-width: 600px;
+}
+
+.user-form-modal.active {
+  display: flex;
+  transform: translate(-50%, -50%);
+}
+
+.user-form-header {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-form-modal .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+.overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-input-group {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.user-input-group label {
+  min-width: 120px;
+  white-space: nowrap;
+}
+
+.user-input-group input,
+select {
+  width: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.user-button-group input {
+  padding: 10px 15px;
+}

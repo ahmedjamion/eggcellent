@@ -1,9 +1,9 @@
 .tab-button {
+  width: 100%;
   background-color: transparent;
   padding: 10px;
   cursor: pointer;
   border: none;
-  width: 100%;
 }
 
 .tab-button:active {
